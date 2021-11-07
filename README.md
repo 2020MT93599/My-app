@@ -7,3 +7,15 @@ Once you have configured your project in your IDE you can build it from there. H
 * `mvn install`: it will do everything `mvn test` does and then if everything looks file it will install the library or the application into your local maven repository (typically under <USER FOLDER>/.m2). In this way you could use this library from other projects you want to build on the same machine
 
 If you need more information please take a look at this [quick tutorial](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html).
+
+ ## Contributing
+  
+The general workflow for contributing to an open source project isis,
+
+- We fork the repo
+- We clone our fork
+- We make changes to our fork
+- We push the changes to our fork
+- We push our changes to the upstream and create a PR
+- The PR is reviewed and then approved.
+- The PR is merged by the maintainer of the project
